@@ -65,7 +65,7 @@ class ArrpHelper(val pack: RuntimeResourcePack, val namespace: String = pack.id.
 	val tag_entityType_arrows: JTag = getTag(EntityTypeTags.ARROWS)
 	
 	init {
-		if (ARRP) RRPCallback.BEFORE_VANILLA.register {
+		if (ARRP) RRPCallback.AFTER_VANILLA.register {
 			it += pack
 			for ((id, lang) in languages) {
 				if (lang is JLangUTF8) pack.addAsset(id.pre("lang/") + ".json", lang.toBytes())

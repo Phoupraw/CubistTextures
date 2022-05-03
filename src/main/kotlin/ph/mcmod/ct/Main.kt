@@ -45,6 +45,7 @@ object Main {
 		Asynchronization.loadClass()
 		MultiThreadsInit.execute()
 		
+		// 给予玩家此模组的所有配方
 		fun giveRecipes(server: MinecraftServer, players: Collection<ServerPlayerEntity>) {
 			val recipesIds = server.recipeManager.keys().toList().filter { it.namespace == NAMESPACE }.toTypedArray()
 			players.forEach { it.unlockRecipes(recipesIds) }
