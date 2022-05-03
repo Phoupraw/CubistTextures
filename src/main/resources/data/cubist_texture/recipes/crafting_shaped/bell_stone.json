@@ -1,0 +1,20 @@
+{
+  "pattern": [
+    " # ",
+    "#@#",
+    " # "
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:smooth_stone"
+    },
+    "#": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:bell_stone"
+  },
+  "type": "minecraft:crafting_shaped"
+}

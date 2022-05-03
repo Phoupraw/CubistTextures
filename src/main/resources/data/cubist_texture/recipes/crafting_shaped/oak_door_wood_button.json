@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:oak_door_wood"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:oak_door_wood_button"
+  },
+  "type": "minecraft:crafting_shaped"
+}

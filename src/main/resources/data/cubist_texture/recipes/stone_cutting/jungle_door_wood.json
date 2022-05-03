@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:jungle_door"
+  },
+  "result": "cubist_texture:jungle_door_wood",
+  "count": 2,
+  "type": "stonecutting"
+}

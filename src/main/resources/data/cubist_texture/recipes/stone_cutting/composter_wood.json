@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:composter"
+  },
+  "result": "cubist_texture:composter_wood",
+  "count": 3,
+  "type": "stonecutting"
+}

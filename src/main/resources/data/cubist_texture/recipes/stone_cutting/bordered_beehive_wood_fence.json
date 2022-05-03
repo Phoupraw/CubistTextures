@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:bordered_beehive_wood"
+  },
+  "result": "cubist_texture:bordered_beehive_wood_fence",
+  "count": 1,
+  "type": "stonecutting"
+}

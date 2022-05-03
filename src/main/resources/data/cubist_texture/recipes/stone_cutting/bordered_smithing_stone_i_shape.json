@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:bordered_smithing_stone"
+  },
+  "result": "cubist_texture:bordered_smithing_stone_i_shape",
+  "count": 1,
+  "type": "stonecutting"
+}

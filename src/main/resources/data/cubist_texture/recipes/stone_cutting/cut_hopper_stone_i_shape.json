@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:cut_hopper_stone"
+  },
+  "result": "cubist_texture:cut_hopper_stone_i_shape",
+  "count": 1,
+  "type": "stonecutting"
+}

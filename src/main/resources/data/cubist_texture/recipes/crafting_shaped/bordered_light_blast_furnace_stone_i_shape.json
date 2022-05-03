@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:bordered_light_blast_furnace_stone"
+    }
+  },
+  "result": {
+    "count": 7,
+    "item": "cubist_texture:bordered_light_blast_furnace_stone_i_shape"
+  },
+  "type": "minecraft:crafting_shaped"
+}

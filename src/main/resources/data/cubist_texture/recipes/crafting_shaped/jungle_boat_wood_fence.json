@@ -1,0 +1,19 @@
+{
+  "pattern": [
+    "#@#",
+    "#@#"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "cubist_texture:jungle_boat_wood"
+    }
+  },
+  "result": {
+    "count": 3,
+    "item": "cubist_texture:jungle_boat_wood_fence"
+  },
+  "type": "minecraft:crafting_shaped"
+}

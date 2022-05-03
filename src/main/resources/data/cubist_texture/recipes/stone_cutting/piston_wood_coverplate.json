@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:piston_wood"
+  },
+  "result": "cubist_texture:piston_wood_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

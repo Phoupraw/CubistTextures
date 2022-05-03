@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:gold_axolotl_stone"
+  },
+  "result": "cubist_texture:gold_axolotl_stone_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

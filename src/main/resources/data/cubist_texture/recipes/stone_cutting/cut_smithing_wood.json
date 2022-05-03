@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:smithing_table"
+  },
+  "result": "cubist_texture:cut_smithing_wood",
+  "count": 4,
+  "type": "stonecutting"
+}

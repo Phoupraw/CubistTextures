@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:warped_door_wood"
+  },
+  "result": "cubist_texture:warped_door_wood_fence",
+  "count": 1,
+  "type": "stonecutting"
+}

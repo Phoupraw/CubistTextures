@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:chiseled_dark_blast_furnace_stone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:chiseled_dark_blast_furnace_stone_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

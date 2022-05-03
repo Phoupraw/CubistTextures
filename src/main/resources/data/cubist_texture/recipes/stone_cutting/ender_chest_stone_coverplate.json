@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:ender_chest_stone"
+  },
+  "result": "cubist_texture:ender_chest_stone_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

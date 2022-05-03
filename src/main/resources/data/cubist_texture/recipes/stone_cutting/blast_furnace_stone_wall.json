@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:blast_furnace_stone"
+  },
+  "result": "cubist_texture:blast_furnace_stone_wall",
+  "count": 1,
+  "type": "stonecutting"
+}

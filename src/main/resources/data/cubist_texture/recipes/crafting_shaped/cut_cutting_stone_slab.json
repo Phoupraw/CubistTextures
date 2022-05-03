@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:cut_cutting_stone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:cut_cutting_stone_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

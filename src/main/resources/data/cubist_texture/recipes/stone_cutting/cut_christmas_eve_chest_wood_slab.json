@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:cut_christmas_eve_chest_wood"
+  },
+  "result": "cubist_texture:cut_christmas_eve_chest_wood_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:beehive"
+  },
+  "result": "cubist_texture:bordered_beehive_wood",
+  "count": 6,
+  "type": "stonecutting"
+}

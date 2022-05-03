@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:oak_door"
+  },
+  "result": "cubist_texture:oak_door_wood",
+  "count": 2,
+  "type": "stonecutting"
+}

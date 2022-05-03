@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:dragon_egg_stone"
+  },
+  "result": "cubist_texture:dragon_egg_stone_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

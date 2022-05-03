@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:spruce_trapdoor_wood"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:spruce_trapdoor_wood_pressure_plate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

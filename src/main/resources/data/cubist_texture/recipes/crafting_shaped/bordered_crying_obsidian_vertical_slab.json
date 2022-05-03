@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:bordered_crying_obsidian"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:bordered_crying_obsidian_vertical_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

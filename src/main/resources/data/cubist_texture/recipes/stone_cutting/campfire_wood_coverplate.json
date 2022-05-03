@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:campfire_wood"
+  },
+  "result": "cubist_texture:campfire_wood_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:jungle_boat_wood"
+  },
+  "result": "cubist_texture:jungle_boat_wood_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:daylight_detector"
+  },
+  "result": "cubist_texture:pv_wood",
+  "count": 9,
+  "type": "stonecutting"
+}

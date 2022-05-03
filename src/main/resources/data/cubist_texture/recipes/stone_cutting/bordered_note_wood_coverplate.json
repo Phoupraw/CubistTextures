@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:bordered_note_wood"
+  },
+  "result": "cubist_texture:bordered_note_wood_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:jungle_boat_wood"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:jungle_boat_wood_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

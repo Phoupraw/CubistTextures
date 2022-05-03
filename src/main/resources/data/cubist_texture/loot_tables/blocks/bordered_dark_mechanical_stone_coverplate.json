@@ -1,0 +1,107 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 0
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "west": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "east": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "down": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "up": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "north": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "block_state_property",
+                  "block": "cubist_texture:bordered_dark_mechanical_stone_coverplate",
+                  "properties": {
+                    "south": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "rolls": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ]
+}

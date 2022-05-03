@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:flower_pot_stone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:flower_pot_stone_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

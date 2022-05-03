@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:glow_item_frame_wood"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:glow_item_frame_wood_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

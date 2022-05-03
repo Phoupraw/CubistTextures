@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:smithing_table"
+  },
+  "result": "cubist_texture:bordered_smithing_stone",
+  "count": 6,
+  "type": "stonecutting"
+}

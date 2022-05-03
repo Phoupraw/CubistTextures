@@ -1,0 +1,14 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "cubist_texture:glow_item_frame_wood_pressure_plate"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

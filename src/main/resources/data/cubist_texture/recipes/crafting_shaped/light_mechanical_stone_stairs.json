@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:light_mechanical_stone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:light_mechanical_stone_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

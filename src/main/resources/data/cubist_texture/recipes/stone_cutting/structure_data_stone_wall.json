@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:structure_data_stone"
+  },
+  "result": "cubist_texture:structure_data_stone_wall",
+  "count": 1,
+  "type": "stonecutting"
+}

@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:bordered_smithing_wood"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:bordered_smithing_wood_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

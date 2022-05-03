@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:chiseled_lodestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:chiseled_lodestone_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

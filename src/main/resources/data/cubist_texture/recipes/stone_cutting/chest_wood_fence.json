@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:chest_wood"
+  },
+  "result": "cubist_texture:chest_wood_fence",
+  "count": 1,
+  "type": "stonecutting"
+}

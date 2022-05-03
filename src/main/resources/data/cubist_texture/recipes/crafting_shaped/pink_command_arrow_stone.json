@@ -1,0 +1,20 @@
+{
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:white_dye"
+    },
+    "#": {
+      "item": "minecraft:pink_glazed_terracotta"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "cubist_texture:pink_command_arrow_stone"
+  },
+  "type": "minecraft:crafting_shaped"
+}

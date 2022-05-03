@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:enchanting_table"
+  },
+  "result": "cubist_texture:enchanting_table_wood",
+  "count": 32,
+  "type": "stonecutting"
+}

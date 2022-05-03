@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:crying_obsidian_lamp"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:crying_obsidian_lamp_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:piston"
+  },
+  "result": "cubist_texture:bordered_dark_mechanical_stone",
+  "count": 9,
+  "type": "stonecutting"
+}

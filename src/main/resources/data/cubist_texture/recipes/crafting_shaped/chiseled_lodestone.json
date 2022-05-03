@@ -1,0 +1,20 @@
+{
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:black_dye"
+    },
+    "#": {
+      "item": "minecraft:chiseled_stone_bricks"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "cubist_texture:chiseled_lodestone"
+  },
+  "type": "minecraft:crafting_shaped"
+}

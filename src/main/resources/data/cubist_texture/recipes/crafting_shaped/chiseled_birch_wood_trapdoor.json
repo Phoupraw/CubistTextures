@@ -1,0 +1,16 @@
+{
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:chiseled_birch_wood"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:chiseled_birch_wood_trapdoor"
+  },
+  "type": "minecraft:crafting_shaped"
+}

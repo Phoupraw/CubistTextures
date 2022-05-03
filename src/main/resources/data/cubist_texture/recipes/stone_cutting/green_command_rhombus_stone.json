@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:green_command_arrow_stone"
+  },
+  "result": "cubist_texture:green_command_rhombus_stone",
+  "count": 1,
+  "type": "stonecutting"
+}

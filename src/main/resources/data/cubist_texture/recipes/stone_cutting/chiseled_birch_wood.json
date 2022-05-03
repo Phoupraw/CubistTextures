@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:fletching_table"
+  },
+  "result": "cubist_texture:chiseled_birch_wood",
+  "count": 4,
+  "type": "stonecutting"
+}

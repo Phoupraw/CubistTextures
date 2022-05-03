@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:loom_wood"
+  },
+  "result": "cubist_texture:loom_wood_vertical_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

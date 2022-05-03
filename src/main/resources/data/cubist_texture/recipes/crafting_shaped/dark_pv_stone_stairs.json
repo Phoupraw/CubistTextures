@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:dark_pv_stone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:dark_pv_stone_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

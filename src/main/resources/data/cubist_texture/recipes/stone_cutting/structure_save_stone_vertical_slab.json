@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:structure_save_stone"
+  },
+  "result": "cubist_texture:structure_save_stone_vertical_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

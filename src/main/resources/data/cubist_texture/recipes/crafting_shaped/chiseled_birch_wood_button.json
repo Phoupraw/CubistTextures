@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:chiseled_birch_wood"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:chiseled_birch_wood_button"
+  },
+  "type": "minecraft:crafting_shaped"
+}

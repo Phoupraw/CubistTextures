@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:smoker"
+  },
+  "result": "cubist_texture:bordered_smoker_stone",
+  "count": 12,
+  "type": "stonecutting"
+}

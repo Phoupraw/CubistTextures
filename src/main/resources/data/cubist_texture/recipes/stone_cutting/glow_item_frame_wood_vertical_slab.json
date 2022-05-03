@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:glow_item_frame_wood"
+  },
+  "result": "cubist_texture:glow_item_frame_wood_vertical_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

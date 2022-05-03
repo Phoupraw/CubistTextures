@@ -1,0 +1,16 @@
+{
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:composter_wood"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:cut_composter_wood"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:campfire_wood"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:campfire_wood_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

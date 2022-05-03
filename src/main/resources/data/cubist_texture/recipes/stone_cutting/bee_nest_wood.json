@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:bee_nest"
+  },
+  "result": "cubist_texture:bee_nest_wood",
+  "count": 6,
+  "type": "stonecutting"
+}

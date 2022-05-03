@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:brown_axolotl_stone_pressure_plate"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:brown_axolotl_stone_trapdoor"
+  },
+  "type": "minecraft:crafting_shaped"
+}

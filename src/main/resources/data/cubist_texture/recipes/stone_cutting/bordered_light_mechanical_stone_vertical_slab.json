@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:bordered_light_mechanical_stone"
+  },
+  "result": "cubist_texture:bordered_light_mechanical_stone_vertical_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

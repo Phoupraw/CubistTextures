@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:cut_ender_chest_stone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:cut_ender_chest_stone_pressure_plate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

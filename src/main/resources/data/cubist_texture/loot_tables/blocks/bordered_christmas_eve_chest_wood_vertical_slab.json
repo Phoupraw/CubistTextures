@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "cubist_texture:bordered_christmas_eve_chest_wood_vertical_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "cubist_texture:bordered_christmas_eve_chest_wood_vertical_slab",
+									"properties": {"form": "full"}
+								}
+							],
+							"count": 2
+						},
+						{"function": "minecraft:explosion_decay"}
+					]
+				}
+			]
+		}
+	]
+}

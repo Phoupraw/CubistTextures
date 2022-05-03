@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:brown_axolotl_stone"
+    }
+  },
+  "result": {
+    "count": 7,
+    "item": "cubist_texture:brown_axolotl_stone_i_shape"
+  },
+  "type": "minecraft:crafting_shaped"
+}

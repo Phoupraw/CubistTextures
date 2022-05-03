@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:smooth_bell_stone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:smooth_bell_stone_vertical_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

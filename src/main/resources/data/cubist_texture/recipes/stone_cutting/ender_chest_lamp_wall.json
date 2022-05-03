@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:ender_chest_lamp"
+  },
+  "result": "cubist_texture:ender_chest_lamp_wall",
+  "count": 1,
+  "type": "stonecutting"
+}

@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:blue_command_rhombus_stone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:blue_command_rhombus_stone_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

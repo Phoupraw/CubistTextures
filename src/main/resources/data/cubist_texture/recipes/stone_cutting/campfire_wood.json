@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "tag": "minecraft:campfires"
+  },
+  "result": "cubist_texture:campfire_wood",
+  "count": 12,
+  "type": "stonecutting"
+}

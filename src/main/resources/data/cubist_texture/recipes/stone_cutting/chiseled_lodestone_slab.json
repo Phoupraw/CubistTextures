@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:chiseled_lodestone"
+  },
+  "result": "cubist_texture:chiseled_lodestone_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

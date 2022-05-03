@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:chiseled_lodestone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:chiseled_lodestone_pressure_plate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

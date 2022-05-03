@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:flower_pot"
+  },
+  "result": "cubist_texture:flower_pot_stone",
+  "count": 1,
+  "type": "stonecutting"
+}

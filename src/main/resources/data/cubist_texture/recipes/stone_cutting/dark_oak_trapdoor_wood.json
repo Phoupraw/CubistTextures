@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:dark_oak_trapdoor"
+  },
+  "result": "cubist_texture:dark_oak_trapdoor_wood",
+  "count": 3,
+  "type": "stonecutting"
+}

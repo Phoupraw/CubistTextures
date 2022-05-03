@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:blue_glazed_terracotta"
+  },
+  "result": "cubist_texture:blue_axolotl_stone",
+  "count": 1,
+  "type": "stonecutting"
+}

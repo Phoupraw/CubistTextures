@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:observer"
+  },
+  "result": "cubist_texture:bordered_observer_stone",
+  "count": 9,
+  "type": "stonecutting"
+}

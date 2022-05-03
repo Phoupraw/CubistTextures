@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:dark_oak_boat"
+  },
+  "result": "cubist_texture:dark_oak_boat_wood",
+  "count": 5,
+  "type": "stonecutting"
+}

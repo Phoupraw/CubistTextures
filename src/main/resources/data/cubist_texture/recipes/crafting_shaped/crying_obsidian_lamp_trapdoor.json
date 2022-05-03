@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:crying_obsidian_lamp_pressure_plate"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:crying_obsidian_lamp_trapdoor"
+  },
+  "type": "minecraft:crafting_shaped"
+}

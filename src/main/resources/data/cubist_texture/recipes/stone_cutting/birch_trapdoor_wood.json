@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:birch_trapdoor"
+  },
+  "result": "cubist_texture:birch_trapdoor_wood",
+  "count": 3,
+  "type": "stonecutting"
+}

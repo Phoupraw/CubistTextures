@@ -1,0 +1,19 @@
+{
+  "pattern": [
+    "@#@",
+    "@#@"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "cubist_texture:chiseled_bee_nest_wood"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "cubist_texture:chiseled_bee_nest_wood_fence_gate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

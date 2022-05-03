@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:pink_axolotl_stone"
+  },
+  "result": "cubist_texture:pink_axolotl_stone_wall",
+  "count": 1,
+  "type": "stonecutting"
+}

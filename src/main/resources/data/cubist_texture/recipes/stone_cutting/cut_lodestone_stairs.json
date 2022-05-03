@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:cut_lodestone"
+  },
+  "result": "cubist_texture:cut_lodestone_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

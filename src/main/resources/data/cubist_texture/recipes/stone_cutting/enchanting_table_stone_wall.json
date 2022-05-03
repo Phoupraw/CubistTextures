@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:enchanting_table_stone"
+  },
+  "result": "cubist_texture:enchanting_table_stone_wall",
+  "count": 1,
+  "type": "stonecutting"
+}

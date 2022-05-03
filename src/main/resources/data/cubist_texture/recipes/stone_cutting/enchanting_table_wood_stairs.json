@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:enchanting_table_wood"
+  },
+  "result": "cubist_texture:enchanting_table_wood_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

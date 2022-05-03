@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:cut_lodestone"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "cubist_texture:cut_lodestone_vertical_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

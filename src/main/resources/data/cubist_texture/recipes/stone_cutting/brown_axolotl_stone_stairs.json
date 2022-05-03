@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:brown_axolotl_stone"
+  },
+  "result": "cubist_texture:brown_axolotl_stone_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

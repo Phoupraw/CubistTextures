@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:smithing_wood"
+  },
+  "result": "cubist_texture:smithing_wood_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

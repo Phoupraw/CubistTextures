@@ -1,0 +1,14 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "cubist_texture:green_command_arrow_stone"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:warped_door"
+  },
+  "result": "cubist_texture:warped_door_wood",
+  "count": 2,
+  "type": "stonecutting"
+}

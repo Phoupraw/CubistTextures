@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:dark_smooth_stone"
+  },
+  "result": "cubist_texture:dark_smooth_stone_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:cut_dark_oak_wood"
+  },
+  "result": "cubist_texture:cut_dark_oak_wood_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

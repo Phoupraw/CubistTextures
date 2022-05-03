@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:chest"
+  },
+  "result": "cubist_texture:bordered_chest_wood",
+  "count": 8,
+  "type": "stonecutting"
+}

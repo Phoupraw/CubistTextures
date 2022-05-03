@@ -1,0 +1,16 @@
+{
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:beacon_stone"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:cut_beacon_stone"
+  },
+  "type": "minecraft:crafting_shaped"
+}

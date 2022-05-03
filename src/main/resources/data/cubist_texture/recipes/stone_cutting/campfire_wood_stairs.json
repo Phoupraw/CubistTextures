@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:campfire_wood"
+  },
+  "result": "cubist_texture:campfire_wood_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

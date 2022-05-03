@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "###",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:pink_command_rhombus_stone"
+    }
+  },
+  "result": {
+    "count": 7,
+    "item": "cubist_texture:pink_command_rhombus_stone_i_shape"
+  },
+  "type": "minecraft:crafting_shaped"
+}

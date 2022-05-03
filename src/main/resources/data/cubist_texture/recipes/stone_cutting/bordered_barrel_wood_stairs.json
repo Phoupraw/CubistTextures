@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:bordered_barrel_wood"
+  },
+  "result": "cubist_texture:bordered_barrel_wood_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

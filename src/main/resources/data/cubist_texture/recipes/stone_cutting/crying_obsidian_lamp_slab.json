@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:crying_obsidian_lamp"
+  },
+  "result": "cubist_texture:crying_obsidian_lamp_slab",
+  "count": 2,
+  "type": "stonecutting"
+}

@@ -1,0 +1,17 @@
+{
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:cut_christmas_chest_wood"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "cubist_texture:cut_christmas_chest_wood_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

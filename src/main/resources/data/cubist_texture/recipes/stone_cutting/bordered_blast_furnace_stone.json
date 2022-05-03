@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:blast_furnace"
+  },
+  "result": "cubist_texture:bordered_blast_furnace_stone",
+  "count": 16,
+  "type": "stonecutting"
+}

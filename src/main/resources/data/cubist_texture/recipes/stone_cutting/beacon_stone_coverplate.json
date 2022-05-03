@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:beacon_stone"
+  },
+  "result": "cubist_texture:beacon_stone_coverplate",
+  "count": 16,
+  "type": "stonecutting"
+}

@@ -1,0 +1,15 @@
+{
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "cubist_texture:bordered_light_mechanical_stone_pressure_plate"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "cubist_texture:bordered_light_mechanical_stone_trapdoor"
+  },
+  "type": "minecraft:crafting_shaped"
+}

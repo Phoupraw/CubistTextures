@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "cubist_texture:chiseled_ender_chest_stone"
+  },
+  "result": "cubist_texture:chiseled_ender_chest_stone_stairs",
+  "count": 1,
+  "type": "stonecutting"
+}

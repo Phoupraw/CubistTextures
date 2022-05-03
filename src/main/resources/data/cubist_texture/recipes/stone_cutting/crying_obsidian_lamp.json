@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "minecraft:respawn_anchor"
+  },
+  "result": "cubist_texture:crying_obsidian_lamp",
+  "count": 9,
+  "type": "stonecutting"
+}
