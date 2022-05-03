@@ -6,8 +6,9 @@
 	"description": "把原版的装饰方块上的独特纹理制成独立的方块。",
 	"authors": ["Phoupraw"],
 	"contact": {
-		"homepage": "https://www.mcmod.cn/class/TODO.html",
-		"issues": "https://www.mcbbs.net/thread-TODO-1-1.html"
+		"homepage": "https://www.mcmod.cn/class/6335.html",
+		"issues": "https://github.com/Phoupraw/CubistTextures/issues",
+		"sources": "https://github.com/Phoupraw/CubistTextures"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/cubist_texture/icon.png",
@@ -24,6 +25,5 @@
 		"advanced_runtime_resource_pack": ">=0.5.7"
 	},
 	"suggests": {
-
 	}
 }

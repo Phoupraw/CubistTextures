@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "cubist_texture:block/enchanting_table_stone_trapdoor/acacia"
+  },
+  "elements": []
+}

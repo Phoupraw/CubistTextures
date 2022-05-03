@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "cubist_texture:block/bordered_chest_wood"
+  },
+  "elements": []
+}

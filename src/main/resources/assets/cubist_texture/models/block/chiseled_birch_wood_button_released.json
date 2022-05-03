@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "cubist_texture:block/chiseled_birch_wood"
+  },
+  "elements": []
+}

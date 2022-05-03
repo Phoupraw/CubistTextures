@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/vertical_slab",
+  "textures": {
+    "particle": "cubist_texture:block/bordered_christmas_chest_wood"
+  },
+  "elements": []
+}

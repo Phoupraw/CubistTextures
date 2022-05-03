@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/vertical_slab",
+  "textures": {
+    "particle": "cubist_texture:block/birch_boat_wood"
+  },
+  "elements": []
+}

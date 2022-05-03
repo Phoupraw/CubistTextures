@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "cubist_texture:block/glow_item_frame_wood_trapdoor/warped"
+  },
+  "elements": []
+}

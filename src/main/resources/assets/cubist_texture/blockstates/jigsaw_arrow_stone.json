@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"facing=south": {"model": "cubist_texture:block/jigsaw_arrow_stone", "y": 0},
+		"facing=west": {"model": "cubist_texture:block/jigsaw_arrow_stone", "y": 90},
+		"facing=north": {"model": "cubist_texture:block/jigsaw_arrow_stone", "y": 180},
+		"facing=east": {"model": "cubist_texture:block/jigsaw_arrow_stone", "y": 270}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "cubist_texture:block/hopper_stone"
+  },
+  "elements": []
+}

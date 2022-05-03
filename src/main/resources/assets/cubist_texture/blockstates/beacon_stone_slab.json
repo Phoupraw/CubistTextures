@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": {"model": "cubist_texture:block/beacon_stone_slab"},
+		"type=double": {"model": "cubist_texture:block/beacon_stone"},
+		"type=top": {"model": "cubist_texture:block/beacon_stone_slab_top"}
+	}
+}

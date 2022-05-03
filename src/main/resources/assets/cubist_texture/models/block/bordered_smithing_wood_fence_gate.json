@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "cubist_texture:block/bordered_smithing_wood"
+  },
+  "elements": []
+}

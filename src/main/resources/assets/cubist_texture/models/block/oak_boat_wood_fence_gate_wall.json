@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "cubist_texture:block/oak_boat_wood"
+  },
+  "elements": []
+}

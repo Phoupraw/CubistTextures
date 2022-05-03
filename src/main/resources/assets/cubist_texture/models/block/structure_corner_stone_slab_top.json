@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "cubist_texture:block/structure_corner_stone",
+		"top": "cubist_texture:block/structure_corner_stone",
+		"side": "cubist_texture:block/structure_corner_stone"
+	}
+}

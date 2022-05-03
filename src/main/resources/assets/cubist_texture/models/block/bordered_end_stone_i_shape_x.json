@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/i_shape_x",
+  "textures": {
+    "particle": "cubist_texture:block/bordered_end_stone"
+  },
+  "elements": []
+}

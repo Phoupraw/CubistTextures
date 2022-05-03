@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package ph.mcmod.ct.api
 
 import com.google.gson.JsonObject
@@ -28,10 +30,16 @@ import net.minecraft.tag.EntityTypeTags
 import net.minecraft.tag.ItemTags
 import net.minecraft.tag.TagKey
 import net.minecraft.util.Identifier
+import ph.mcmod.ct.ARRP
+import ph.mcmod.ct.DUMP
 import ph.mcmod.ct.NAMESPACE
 import java.io.IOException
 import java.io.OutputStreamWriter
 import java.nio.charset.Charset
+import java.nio.file.Path
+import java.util.*
+import kotlin.concurrent.schedule
+import kotlin.concurrent.timer
 
 /**
  * 基于ARRP，提供了快速添加各种资源文件的方法。
@@ -57,14 +65,17 @@ class ArrpHelper(val pack: RuntimeResourcePack, val namespace: String = pack.id.
 	val tag_entityType_arrows: JTag = getTag(EntityTypeTags.ARROWS)
 	
 	init {
-		RRPCallback.BEFORE_VANILLA.register {
+		if (ARRP) RRPCallback.BEFORE_VANILLA.register {
 			it += pack
 			for ((id, lang) in languages) {
 				if (lang is JLangUTF8) pack.addAsset(id.pre("lang/") + ".json", lang.toBytes())
 				else pack.addLang(id, lang)
 			}
 			for ((id, jTag) in tags) pack.addTag(id, jTag)
-//			println(tags.keys)
+			if (DUMP) {
+				pack.dump(Path.of("src\\main\\resources\\assets"))
+				Timer().schedule(1000L) { throw RuntimeException("资源包已dump，令游戏崩溃。") }
+			}
 		}
 	}
 	
@@ -304,7 +315,7 @@ fun RuntimeResourcePack.addLootTable_coverplate(id: Identifier): ByteArray = add
 		  .parameter("add", true)
 		  .condition(JCondition("block_state_property")
 			.parameter("block", id)
-			.parameter("properties", JsonObject().apply { addProperty(property.name, "true") })))
+			.parameter("properties", JsonObject().apply { addProperty(property.name, true) })))
 	}
 })))
 
@@ -626,107 +637,107 @@ fun RuntimeResourcePack.addBlockStateAndModels_coverplate(coverplateId: Identifi
 	addAsset(coverplateId.preBlockStates().json(), """{
 	"multipart": [
 		{
-			"when": {"west": "true"},
+			"when": {"west": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"east": "true"},
+			"when": {"east": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"down": "true"},
+			"when": {"down": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "x": 90, "uvlock": true}
 		},
 		{
-			"when": {"up": "true"},
+			"when": {"up": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "x": 270, "uvlock": true}
 		},
 		{
-			"when": {"north": "true"},
+			"when": {"north": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "y": 0, "uvlock": true}
 		},
 		{
-			"when": {"south": "true"},
+			"when": {"south": true},
 			"apply": {"model": "${coverplateId.preBlock()}_face", "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"west": "true"}, {"down": "true"}]},
+			"when": {"OR": [{"west": true}, {"down": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "y": 0, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"east": "true"}, {"down": "true"}]},
+			"when": {"OR": [{"east": true}, {"down": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"north": "true"}, {"down": "true"}]},
+			"when": {"OR": [{"north": true}, {"down": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"south": "true"}, {"down": "true"}]},
+			"when": {"OR": [{"south": true}, {"down": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"west": "true"}, {"up": "true"}]},
+			"when": {"OR": [{"west": true}, {"up": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 180, "y": 0, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"east": "true"}, {"up": "true"}]},
+			"when": {"OR": [{"east": true}, {"up": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 180, "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"north": "true"}, {"up": "true"}]},
+			"when": {"OR": [{"north": true}, {"up": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 180, "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"south": "true"}, {"up": "true"}]},
+			"when": {"OR": [{"south": true}, {"up": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 180, "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"west": "true"}, {"north": "true"}]},
+			"when": {"OR": [{"west": true}, {"north": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 90, "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"north": "true"}, {"east": "true"}]},
+			"when": {"OR": [{"north": true}, {"east": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 90, "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"east": "true"}, {"south": "true"}]},
+			"when": {"OR": [{"east": true}, {"south": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 90, "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"south": "true"}, {"west": "true"}]},
+			"when": {"OR": [{"south": true}, {"west": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_edge", "x": 90, "y": 0, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"west": "true"}, {"down": "true"}, {"north": "true"}]},
+			"when": {"OR": [{"west": true}, {"down": true}, {"north": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 0, "y": 0, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"north": "true"}, {"down": "true"}, {"east": "true"}]},
+			"when": {"OR": [{"north": true}, {"down": true}, {"east": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 0, "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"east": "true"}, {"down": "true"}, {"south": "true"}]},
+			"when": {"OR": [{"east": true}, {"down": true}, {"south": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 0, "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"south": "true"}, {"down": "true"}, {"west": "true"}]},
+			"when": {"OR": [{"south": true}, {"down": true}, {"west": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 0, "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"west": "true"}, {"up": "true"}, {"north": "true"}]},
+			"when": {"OR": [{"west": true}, {"up": true}, {"north": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 180, "y": 90, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"north": "true"}, {"up": "true"}, {"east": "true"}]},
+			"when": {"OR": [{"north": true}, {"up": true}, {"east": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 180, "y": 180, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"east": "true"}, {"up": "true"}, {"south": "true"}]},
+			"when": {"OR": [{"east": true}, {"up": true}, {"south": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 180, "y": 270, "uvlock": true}
 		},
 		{
-			"when": {"OR": [{"south": "true"}, {"up": "true"}, {"west": "true"}]},
+			"when": {"OR": [{"south": true}, {"up": true}, {"west": true}]},
 			"apply": {"model": "${coverplateId.preBlock()}_vertex", "x": 180, "y": 0, "uvlock": true}
 		}
 	]
@@ -747,14 +758,14 @@ fun RuntimeResourcePack.addBlockStateAndModels_fence(fenceId: Identifier, fullBl
 			}
 		},
 		{
-			"when": {"north": "true"},
+			"when": {"north": true},
 			"apply": {
 				"model": "${fenceId.preBlock()}_side",
 				"uvlock": true
 			}
 		},
 		{
-			"when": {"east": "true"},
+			"when": {"east": true},
 			"apply": {
 				"model": "${fenceId.preBlock()}_side",
 				"y": 90,
@@ -762,7 +773,7 @@ fun RuntimeResourcePack.addBlockStateAndModels_fence(fenceId: Identifier, fullBl
 			}
 		},
 		{
-			"when": {"south": "true"},
+			"when": {"south": true},
 			"apply": {
 				"model": "${fenceId.preBlock()}_side",
 				"y": 180,
@@ -770,7 +781,7 @@ fun RuntimeResourcePack.addBlockStateAndModels_fence(fenceId: Identifier, fullBl
 			}
 		},
 		{
-			"when": {"west": "true"},
+			"when": {"west": true},
 			"apply": {
 				"model": "${fenceId.preBlock()}_side",
 				"y": 270,
@@ -878,7 +889,7 @@ fun RuntimeResourcePack.addBlockStateAndModels_wall(wallId: Identifier, fullBloc
 	"multipart": [
 		{
 			"when": {
-				"up": "true"
+				"up": true
 			},
 			"apply": {
 				"model": "${wallId.preBlock()}_post"
@@ -1141,4 +1152,40 @@ fun RuntimeResourcePack.addBlockStateAndModels_glazedTerracotta(blockId: Identif
 }""".toByteArray())
 	addModel(JModel().parent("block/template_glazed_terracotta").textures(JTextures().`var`("pattern", textureId.toString())), blockId.preBlock())
 	addModel_blockItem(blockId)
+}
+
+fun RuntimeResourcePack.addBlockStateAndModels_generatedTrapdoor(trapdoorId: Identifier) {
+	val args = listOf(
+	  listOf("east", "bottom", false, 0, 90),
+	  listOf("east", "bottom", true, 0, 90),
+	  listOf("east", "top", false, 0, 90),
+	  listOf("east", "top", true, 180, 270),
+	  listOf("north", "bottom", false, 0, 0),
+	  listOf("north", "bottom", true, 0, 0),
+	  listOf("north", "top", false, 0, 0),
+	  listOf("north", "top", true, 180, 180),
+	  listOf("south", "bottom", false, 0, 180),
+	  listOf("south", "bottom", true, 0, 180),
+	  listOf("south", "top", false, 0, 180),
+	  listOf("south", "top", true, 180, 0),
+	  listOf("west", "bottom", false, 0, 270),
+	  listOf("west", "bottom", true, 0, 270),
+	  listOf("west", "top", false, 0, 270),
+	  listOf("west", "top", true, 180, 90))
+	val patterns = listOf("oak", "jungle", "acacia", "crimson", "warped")
+	val templates = listOf("bottom", "top", "open")
+	addAsset(trapdoorId.preBlockStates().json(), args.joinToString(",\n", """{"variants":{""", "}}\n") { arg ->
+		val template = if (arg[2] as Boolean) "open" else arg[1]
+		""""facing=${arg[0]},half=${arg[1]},open=${arg[2]}":${
+			patterns.joinToString(",", "[", "]") { pattern ->
+				"""{"model":"${trapdoorId.preBlock()}/${pattern}_${template}","x":${arg[3]},"y":${arg[4]}}"""
+			}
+		}"""
+	}.toByteArray())
+	for (pattern in patterns) for (template in templates) {
+		addModel(JModel().parent("block/template_orientable_trapdoor_$template")
+		  .textures(JTextures().`var`("texture", "${trapdoorId.preBlock()}/${pattern}")),
+		  trapdoorId.preBlock() + "/${pattern}_${template}")
+	}
+	addModel(JModel.model("${trapdoorId.preBlock()}/oak_bottom"), trapdoorId.preItem())
 }

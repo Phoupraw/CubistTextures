@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "form=full": {
+      "model": "cubist_texture:block/enchanting_table_stone"
+    },
+    "form=west": {
+      "model": "cubist_texture:block/enchanting_table_stone_vertical_slab",
+      "y": 180,
+      "uvlock": true
+    },
+    "form=south": {
+      "model": "cubist_texture:block/enchanting_table_stone_vertical_slab",
+      "y": 90,
+      "uvlock": true
+    },
+    "form=north": {
+      "model": "cubist_texture:block/enchanting_table_stone_vertical_slab",
+      "y": 270,
+      "uvlock": true
+    },
+    "form=east": {
+      "model": "cubist_texture:block/enchanting_table_stone_vertical_slab"
+    }
+  }
+}

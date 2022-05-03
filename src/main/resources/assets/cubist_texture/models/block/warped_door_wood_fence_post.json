@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "cubist_texture:block/warped_door_wood"
+  },
+  "elements": []
+}

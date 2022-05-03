@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": {"model": "cubist_texture:block/chiseled_lodestone_slab"},
+		"type=double": {"model": "cubist_texture:block/chiseled_lodestone"},
+		"type=top": {"model": "cubist_texture:block/chiseled_lodestone_slab_top"}
+	}
+}

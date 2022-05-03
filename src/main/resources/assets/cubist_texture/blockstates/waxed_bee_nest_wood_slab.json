@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": {"model": "cubist_texture:block/waxed_bee_nest_wood_slab"},
+		"type=double": {"model": "cubist_texture:block/waxed_bee_nest_wood"},
+		"type=top": {"model": "cubist_texture:block/waxed_bee_nest_wood_slab_top"}
+	}
+}

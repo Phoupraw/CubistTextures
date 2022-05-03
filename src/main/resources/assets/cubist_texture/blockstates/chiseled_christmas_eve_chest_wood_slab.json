@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": {"model": "cubist_texture:block/chiseled_christmas_eve_chest_wood_slab"},
+		"type=double": {"model": "cubist_texture:block/chiseled_christmas_eve_chest_wood"},
+		"type=top": {"model": "cubist_texture:block/chiseled_christmas_eve_chest_wood_slab_top"}
+	}
+}

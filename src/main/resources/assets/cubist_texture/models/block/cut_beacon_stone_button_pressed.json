@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "cubist_texture:block/cut_beacon_stone"
+  },
+  "elements": []
+}

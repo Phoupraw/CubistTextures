@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "cubist_texture:block/ender_chest_lamp"
+  },
+  "elements": []
+}

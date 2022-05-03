@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"type=bottom": {"model": "cubist_texture:block/bordered_end_stone_slab"},
+		"type=double": {"model": "cubist_texture:block/bordered_end_stone"},
+		"type=top": {"model": "cubist_texture:block/bordered_end_stone_slab_top"}
+	}
+}

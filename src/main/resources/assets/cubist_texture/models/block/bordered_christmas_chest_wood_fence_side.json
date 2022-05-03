@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "cubist_texture:block/bordered_christmas_chest_wood"
+  },
+  "elements": []
+}

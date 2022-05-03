@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cubist_texture:block/bordered_observer_stone"
+  },
+  "elements": []
+}

@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks
 import net.minecraft.block.PillarBlock
 import net.minecraft.item.BlockItem
 import net.minecraft.item.Items
+import ph.mcmod.ct.ARRP
 import ph.mcmod.ct.ARRP_HELPER
 import ph.mcmod.ct.ITEM_GROUP
 import ph.mcmod.ct.api.*
@@ -16,12 +17,13 @@ object BeaconPillar {
 	val ITEM = BlockItem(BLOCK, FabricItemSettings().group(ITEM_GROUP)).register(PATH)
 	
 	init {
-		ARRP_HELPER.pack.addLootTable_itself(BLOCK)
-		ARRP_HELPER.pack.addRecipe_stoneCutting(Items.BEACON, ITEM, 64)
-//		ARRP_HELPER.pack.addRecipe_stoneCutting(FakeBeacon.ITEM, ITEM, 8)
-		runAtClient {
-			ARRP_HELPER.lang_zh_cn.blockRespect(BLOCK, "信标柱")
-			ARRP_HELPER.add_model_item_block(BLOCK.id)
+		if (ARRP) {
+			ARRP_HELPER.pack.addLootTable_itself(BLOCK)
+			ARRP_HELPER.pack.addRecipe_stoneCutting(Items.BEACON, ITEM, 64)
+			runAtClient {
+				ARRP_HELPER.lang_zh_cn.blockRespect(BLOCK, "信标柱")
+				ARRP_HELPER.add_model_item_block(BLOCK.id)
+			}
 		}
 	}
 }

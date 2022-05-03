@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cubist_texture:block/dark_blast_furnace_stone"
+  },
+  "elements": []
+}

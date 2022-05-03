@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "cubist_texture:block/bordered_end_stone"
+  },
+  "elements": []
+}

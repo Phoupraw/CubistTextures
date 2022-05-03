@@ -19,6 +19,8 @@ import ph.mcmod.ct.game.StoneSuite
 import ph.mcmod.ct.game.WoodenSuite
 
 const val NAMESPACE = "cubist_texture"
+const val ARRP = false
+const val DUMP = false
 @JvmField
 val LOGGER: Logger = LogManager.getLogger(NAMESPACE)
 @JvmField
@@ -27,7 +29,8 @@ val RESOURCE_PACK: RuntimeResourcePack = RuntimeResourcePack.create(Identifier(N
 val ARRP_HELPER = ArrpHelper(RESOURCE_PACK)
 val ITEM_GROUP: ItemGroup = FabricItemGroupBuilder.build(Identifier(NAMESPACE, "item_group")) { StoneSuite.CHISELED_CUTTING_STONE.fullBlock.asItem().defaultStack }.apply {
 	runAtClient {
-		ARRP_HELPER.lang_zh_cn.itemGroup(Identifier(name), "立体化纹理") // FIXME: 2022/5/3 翻译文本显示的还是本地化键，而不是正确翻译。
+		if (ARRP)
+			ARRP_HELPER.lang_zh_cn.itemGroup(Identifier(name), "立体化纹理") // FIXME: 2022/5/3 翻译文本显示的还是本地化键，而不是正确翻译。
 	}
 }
 

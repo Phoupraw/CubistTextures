@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "cubist_texture:block/cut_christmas_eve_chest_wood"
+  },
+  "elements": []
+}

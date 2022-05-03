@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glazed_terracotta",
+  "textures": {
+    "pattern": "cubist_texture:block/pink_command_arrow_stone"
+  },
+  "elements": []
+}

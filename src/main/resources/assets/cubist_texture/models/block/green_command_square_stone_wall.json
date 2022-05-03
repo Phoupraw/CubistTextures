@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "cubist_texture:block/green_command_square_stone"
+  },
+  "elements": []
+}

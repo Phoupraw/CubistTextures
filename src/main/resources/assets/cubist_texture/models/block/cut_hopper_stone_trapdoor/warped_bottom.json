@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "cubist_texture:block/cut_hopper_stone_trapdoor/warped"
+  },
+  "elements": []
+}

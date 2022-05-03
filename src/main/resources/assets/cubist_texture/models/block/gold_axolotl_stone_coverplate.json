@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/coverplate",
+  "textures": {
+    "particle": "cubist_texture:block/gold_axolotl_stone"
+  },
+  "elements": []
+}

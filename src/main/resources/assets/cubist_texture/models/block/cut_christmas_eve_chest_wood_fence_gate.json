@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "cubist_texture:block/cut_christmas_eve_chest_wood"
+  },
+  "elements": []
+}

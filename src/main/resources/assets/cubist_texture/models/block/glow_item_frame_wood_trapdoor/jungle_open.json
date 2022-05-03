@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "cubist_texture:block/glow_item_frame_wood_trapdoor/jungle"
+  },
+  "elements": []
+}

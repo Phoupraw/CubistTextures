@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "cubist_texture:block/light_blast_furnace_stone"
+  },
+  "elements": []
+}

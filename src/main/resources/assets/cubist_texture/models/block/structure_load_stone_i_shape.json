@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/i_shape",
+  "textures": {
+    "particle": "cubist_texture:block/structure_load_stone"
+  },
+  "elements": []
+}

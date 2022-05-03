@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "cubist_texture:block/cut_smithing_wood"
+  },
+  "elements": []
+}

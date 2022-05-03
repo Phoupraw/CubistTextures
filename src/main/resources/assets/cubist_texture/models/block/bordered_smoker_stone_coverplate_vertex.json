@@ -1,0 +1,7 @@
+{
+  "parent": "cubist_texture:block/coverplate_vertex",
+  "textures": {
+    "particle": "cubist_texture:block/bordered_smoker_stone"
+  },
+  "elements": []
+}

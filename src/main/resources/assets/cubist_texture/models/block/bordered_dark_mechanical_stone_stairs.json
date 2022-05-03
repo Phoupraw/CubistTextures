@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "cubist_texture:block/bordered_dark_mechanical_stone",
+		"top": "cubist_texture:block/bordered_dark_mechanical_stone",
+		"side": "cubist_texture:block/bordered_dark_mechanical_stone"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "cubist_texture:block/spruce_boat_wood",
+		"top": "cubist_texture:block/spruce_boat_wood",
+		"side": "cubist_texture:block/spruce_boat_wood"
+	}
+}

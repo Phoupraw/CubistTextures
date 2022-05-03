@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "cubist_texture:block/oak_door_wood_trapdoor/acacia"
+  },
+  "elements": []
+}

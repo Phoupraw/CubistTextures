@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "cubist_texture:block/enchanting_table_stone",
+		"top": "cubist_texture:block/enchanting_table_stone",
+		"side": "cubist_texture:block/enchanting_table_stone"
+	}
+}

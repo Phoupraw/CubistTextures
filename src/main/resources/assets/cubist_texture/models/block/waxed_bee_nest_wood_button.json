@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "cubist_texture:block/waxed_bee_nest_wood"
+  },
+  "elements": []
+}
