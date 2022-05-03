@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "cubist_texture",
+	"version": "${version}",
+	"name": "Cubist Texture",
+	"description": "把原版的装饰方块上的独特纹理制成独立的方块。",
+	"authors": ["Phoupraw"],
+	"contact": {
+		"homepage": "https://www.mcmod.cn/class/TODO.html",
+		"issues": "https://www.mcbbs.net/thread-TODO-1-1.html"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cubist_texture/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["ph.mcmod.ct.Main::init"],
+		"client": ["ph.mcmod.ct.ClientMain::init"]
+	},
+	"depends": {
+		"minecraft": ">=1.18.2",
+		"fabricloader": "*",
+		"fabric": "*",
+		"fabric-language-kotlin": "*",
+		"advanced_runtime_resource_pack": ">=0.5.7"
+	},
+	"suggests": {
+
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "cubist_texture:block/beacon_pillar",
+    "side": "cubist_texture:block/beacon_pillar"
+  }
+}
