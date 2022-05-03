@@ -1,6 +1,6 @@
 # Cubist Texture 立体化纹理
-[![license](https://img.shields.io/github/license/Phoupraw/CubistTexture)](https://github.com/Phoupraw/CubistTexture/blob/master/LICENSE)
-[![issue](https://img.shields.io/bitbucket/issues-raw/Phoupraw/CubistTexture)](https://github.com/Phoupraw/CubistTexture/issues)
+[![license](https://img.shields.io/github/license/Phoupraw/CubistTextures)](https://github.com/Phoupraw/CubistTextures/blob/master/LICENSE)
+[![issue](https://img.shields.io/bitbucket/issues-raw/Phoupraw/CubistTextures)](https://github.com/Phoupraw/CubistTextures/issues)
 [![Java](https://img.shields.io/badge/Java-17-yellow)](https://docs.microsoft.com/java/openjdk/download)
 [![Java](https://img.shields.io/badge/Kotlin-1.6-cccc29)](https://www.kotlincn.net/)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.18.2-66ccff)](https://www.minecraft.net/)
