@@ -37,21 +37,10 @@ val ITEM_GROUP: ItemGroup = FabricItemGroupBuilder.build(Identifier(NAMESPACE, "
 object Main {
 	@JvmStatic fun init() {
 		
-		// 杂物
-//		CoralLight.loadClass()
-//		LimeTorch.loadClass()
-//		VanillaSoulLight.LateInit.loadClass()
-//		SealedGlassWaterVat.loadClass()
-//		PoweredLever.loadClass()
-//		ExtinctRedstoneTorch.loadClass()
-//		LitRedstoneLamp.loadClass()
 		WoodenSuite.loadClass()
 		StoneSuite.loadClass()
 		BeaconPillar.loadClass()
 		GlazedTerracottaLike.loadClass()
-//		GlimmerOverflow.loadClass()
-//		StarrySky.loadClass()
-//		LightBelt.loadClass()
 		
 		Asynchronization.loadClass()
 		MultiThreadsInit.execute()
