@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:crimson_door_wood"
-  },
-  "result": "cubist_texture:crimson_door_wood_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

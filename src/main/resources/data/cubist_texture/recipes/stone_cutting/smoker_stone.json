@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:smoker"
-  },
-  "result": "cubist_texture:smoker_stone",
-  "count": 12,
-  "type": "stonecutting"
-}

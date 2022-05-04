@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:ender_chest"
-  },
-  "result": "cubist_texture:cut_ender_chest_stone",
-  "count": 9,
-  "type": "stonecutting"
-}

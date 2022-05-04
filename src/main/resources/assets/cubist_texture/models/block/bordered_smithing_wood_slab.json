@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab",
-	"textures": {
-		"bottom": "cubist_texture:block/bordered_smithing_wood",
-		"top": "cubist_texture:block/bordered_smithing_wood",
-		"side": "cubist_texture:block/bordered_smithing_wood"
-	}
-}

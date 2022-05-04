@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:loom_wood"
-  },
-  "result": "cubist_texture:loom_wood_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

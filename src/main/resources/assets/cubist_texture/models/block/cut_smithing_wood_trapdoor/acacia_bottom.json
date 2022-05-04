@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_bottom",
-  "textures": {
-    "texture": "cubist_texture:block/cut_smithing_wood_trapdoor/acacia"
-  },
-  "elements": []
-}

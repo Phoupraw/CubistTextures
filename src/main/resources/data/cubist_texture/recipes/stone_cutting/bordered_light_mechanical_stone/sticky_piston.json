@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:sticky_piston"
-  },
-  "result": "cubist_texture:bordered_light_mechanical_stone",
-  "count": 10,
-  "type": "stonecutting"
-}

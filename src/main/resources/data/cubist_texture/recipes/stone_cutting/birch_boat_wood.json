@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:birch_boat"
-  },
-  "result": "cubist_texture:birch_boat_wood",
-  "count": 5,
-  "type": "stonecutting"
-}

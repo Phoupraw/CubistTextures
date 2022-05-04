@@ -1,6 +1,0 @@
-{
-	"variants": {
-		"powered=false": {"model": "cubist_texture:block/chiseled_dark_blast_furnace_stone_pressure_plate"},
-		"powered=true": {"model": "cubist_texture:block/chiseled_dark_blast_furnace_stone_pressure_plate_down"}
-	}
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:jigsaw_arrow_stone"
-  },
-  "result": "cubist_texture:jigsaw_line_stone",
-  "count": 1,
-  "type": "stonecutting"
-}

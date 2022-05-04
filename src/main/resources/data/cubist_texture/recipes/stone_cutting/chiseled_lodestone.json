@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:lodestone"
-  },
-  "result": "cubist_texture:chiseled_lodestone",
-  "count": 64,
-  "type": "stonecutting"
-}

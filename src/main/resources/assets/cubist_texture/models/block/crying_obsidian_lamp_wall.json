@@ -1,7 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "cubist_texture:block/crying_obsidian_lamp"
-  },
-  "elements": []
-}

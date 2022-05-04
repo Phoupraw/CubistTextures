@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/pink_axolotl_stone_slab"},
-		"type=double": {"model": "cubist_texture:block/pink_axolotl_stone"},
-		"type=top": {"model": "cubist_texture:block/pink_axolotl_stone_slab_top"}
-	}
-}

@@ -1,0 +1,44 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"OR": [
+					{"facing": "west", "open": false},
+					{"facing": "north", "open": true, "sequenced": false},
+					{"facing": "south", "open": true, "sequenced": true}
+				]
+			},
+			"apply": {"model": "vertical_model", "y": 0}
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "north", "open": false},
+					{"facing": "east", "open": true, "sequenced": false},
+					{"facing": "west", "open": true, "sequenced": true}
+				]
+			},
+			"apply": {"model": "vertical_model", "y": 90}
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "east", "open": false},
+					{"facing": "south", "open": true, "sequenced": false},
+					{"facing": "north", "open": true, "sequenced": true}
+				]
+			},
+			"apply": {"model": "vertical_model", "y": 180}
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "south", "open": false},
+					{"facing": "west", "open": true, "sequenced": false},
+					{"facing": "east", "open": true, "sequenced": true}
+				]
+			},
+			"apply": {"model": "vertical_model", "y": 270}
+		}
+	]
+}

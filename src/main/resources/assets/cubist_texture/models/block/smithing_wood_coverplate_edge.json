@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/coverplate_edge",
-  "textures": {
-    "particle": "cubist_texture:block/smithing_wood"
-  },
-  "elements": []
-}

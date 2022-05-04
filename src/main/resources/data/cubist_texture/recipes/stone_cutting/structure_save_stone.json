@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:purple_glazed_terracotta"
-  },
-  "result": "cubist_texture:structure_save_stone",
-  "count": 1,
-  "type": "stonecutting"
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:barrel"
-  },
-  "result": "cubist_texture:bordered_barrel_wood",
-  "count": 7,
-  "type": "stonecutting"
-}

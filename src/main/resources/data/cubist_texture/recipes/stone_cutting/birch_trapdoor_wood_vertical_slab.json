@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:birch_trapdoor_wood"
-  },
-  "result": "cubist_texture:birch_trapdoor_wood_vertical_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

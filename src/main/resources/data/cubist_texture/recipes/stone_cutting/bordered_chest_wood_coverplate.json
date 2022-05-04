@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:bordered_chest_wood"
-  },
-  "result": "cubist_texture:bordered_chest_wood_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

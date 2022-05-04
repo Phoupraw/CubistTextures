@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:blast_furnace_stone"
-  },
-  "result": "cubist_texture:blast_furnace_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

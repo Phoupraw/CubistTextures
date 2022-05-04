@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_fence_gate_open",
-  "textures": {
-    "texture": "cubist_texture:block/birch_boat_wood"
-  },
-  "elements": []
-}

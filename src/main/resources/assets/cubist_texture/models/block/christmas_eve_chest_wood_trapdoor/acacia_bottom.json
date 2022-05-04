@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_bottom",
-  "textures": {
-    "texture": "cubist_texture:block/christmas_eve_chest_wood_trapdoor/acacia"
-  },
-  "elements": []
-}

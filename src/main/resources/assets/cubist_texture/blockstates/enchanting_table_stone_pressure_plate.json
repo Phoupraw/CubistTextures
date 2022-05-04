@@ -1,6 +1,0 @@
-{
-	"variants": {
-		"powered=false": {"model": "cubist_texture:block/enchanting_table_stone_pressure_plate"},
-		"powered=true": {"model": "cubist_texture:block/enchanting_table_stone_pressure_plate_down"}
-	}
-}

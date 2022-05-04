@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:dropper"
-  },
-  "result": "cubist_texture:light_mechanical_stone",
-  "count": 8,
-  "type": "stonecutting"
-}

@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/birch_trapdoor_wood_slab"},
-		"type=double": {"model": "cubist_texture:block/birch_trapdoor_wood"},
-		"type=top": {"model": "cubist_texture:block/birch_trapdoor_wood_slab_top"}
-	}
-}

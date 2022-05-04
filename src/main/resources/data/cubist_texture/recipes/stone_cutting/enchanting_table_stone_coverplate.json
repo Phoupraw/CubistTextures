@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:enchanting_table_stone"
-  },
-  "result": "cubist_texture:enchanting_table_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

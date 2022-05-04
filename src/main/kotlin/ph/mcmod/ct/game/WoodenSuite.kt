@@ -2,6 +2,7 @@
 
 package ph.mcmod.ct.game
 
+import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap
 import net.minecraft.block.Blocks.*
 import net.minecraft.block.FenceBlock
@@ -26,6 +27,7 @@ class WoodenSuite(path: String, chinese: String, mapColor: MapColor, luminance: 
 	val button = PublicWoodenButtonBlock(settingsOf(OAK_BUTTON)).registerItem("${path}_button")
 	val pressurePlate = PublicPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, settingsOf(OAK_PRESSURE_PLATE)).registerItem("${path}_pressure_plate")
 	val trapdoor = ManualTrapdoorBlock(settingsOf(OAK_TRAPDOOR), true).registerItem("${path}_trapdoor")
+	val verticalTrapdoor = VerticalTrapdoorBlock(FabricBlockSettings.copyOf(trapdoor), true).registerItem("${path}_${VerticalTrapdoorBlock.PATH}")
 	
 	init {
 		MultiThreadsInit += {
@@ -36,6 +38,7 @@ class WoodenSuite(path: String, chinese: String, mapColor: MapColor, luminance: 
 				ARRP_HELPER.pack.addLootTable_itself(button)
 				ARRP_HELPER.pack.addLootTable_itself(pressurePlate)
 				ARRP_HELPER.pack.addLootTable_itself(trapdoor)
+				ARRP_HELPER.pack.addLootTable_itself(verticalTrapdoor)
 				ARRP_HELPER.getTag(BlockTags.PLANKS).add(fullBlockId)
 				ARRP_HELPER.getTag(ItemTags.PLANKS).add(fullBlockId)
 				ARRP_HELPER.getTag(BlockTags.WOODEN_SLABS).add(slab.id)
@@ -53,15 +56,17 @@ class WoodenSuite(path: String, chinese: String, mapColor: MapColor, luminance: 
 				ARRP_HELPER.getTag(ItemTags.WOODEN_PRESSURE_PLATES).add(pressurePlate.id)
 				ARRP_HELPER.getTag(BlockTags.WOODEN_TRAPDOORS).add(trapdoor.id)
 				ARRP_HELPER.getTag(ItemTags.WOODEN_TRAPDOORS).add(trapdoor.id)
+				ARRP_HELPER.getTag(BlockTags.AXE_MINEABLE).add(verticalTrapdoor.id)
 				ARRP_HELPER.pack.addRecipe_craftingShaped(fence, 3)("#@#", "#@#")("#", fullBlock)("@", Items.STICK)()
 				ARRP_HELPER.pack.addRecipe_stoneCutting(fullBlock, fence, 1)
 				ARRP_HELPER.pack.addRecipe_craftingShaped(fenceGate)("@#@", "@#@")("#", fullBlock)("@", Items.STICK)()
 				ARRP_HELPER.pack.addRecipe_craftingShaped(button)("#")("#", fullBlock)()
 				ARRP_HELPER.pack.addRecipe_craftingShaped(pressurePlate)("##")("#", fullBlock)()
 				ARRP_HELPER.pack.addRecipe_craftingShaped(trapdoor, 2)("###", "###")("#", fullBlock)()
+				ARRP_HELPER.pack.addRecipe_craftingShaped(verticalTrapdoor, 2)("#", "#", "#")("#", pressurePlate)()
 			}
 			runAtClient {
-				BlockRenderLayerMap.INSTANCE.putBlock(trapdoor, RenderLayer.getCutout())
+				BlockRenderLayerMap.INSTANCE.putBlocks( RenderLayer.getCutout(),trapdoor,verticalTrapdoor)
 				if (ARRP) {
 					ARRP_HELPER.lang_zh_cn.blockRespect(fence, "${chinese}栅栏")
 					ARRP_HELPER.pack.addBlockStateAndModels_fence(fence.id, fullBlockId)
@@ -73,6 +78,8 @@ class WoodenSuite(path: String, chinese: String, mapColor: MapColor, luminance: 
 					ARRP_HELPER.pack.addBlockStateAndModels_pressurePlate(pressurePlate.id, fullBlockId)
 					ARRP_HELPER.lang_zh_cn.blockRespect(trapdoor, "${chinese}活板门")
 					ARRP_HELPER.pack.addBlockStateAndModels_generatedTrapdoor(trapdoor.id)
+					ARRP_HELPER.lang_zh_cn.blockRespect(verticalTrapdoor, "${chinese}竖活板门")
+					ARRP_HELPER.pack.addBlockStateAndModels_verticalTrapdoor(fullBlockId)
 				}
 			}
 		}

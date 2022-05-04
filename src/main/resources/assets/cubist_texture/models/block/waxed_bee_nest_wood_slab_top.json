@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab_top",
-	"textures": {
-		"bottom": "cubist_texture:block/waxed_bee_nest_wood",
-		"top": "cubist_texture:block/waxed_bee_nest_wood",
-		"side": "cubist_texture:block/waxed_bee_nest_wood"
-	}
-}

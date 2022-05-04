@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:chiseled_cutting_stone"
-  },
-  "result": "cubist_texture:chiseled_cutting_stone_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

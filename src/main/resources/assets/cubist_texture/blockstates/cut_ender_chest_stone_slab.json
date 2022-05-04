@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/cut_ender_chest_stone_slab"},
-		"type=double": {"model": "cubist_texture:block/cut_ender_chest_stone"},
-		"type=top": {"model": "cubist_texture:block/cut_ender_chest_stone_slab_top"}
-	}
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:cut_beacon_stone"
-  },
-  "result": "cubist_texture:cut_beacon_stone_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab_top",
-	"textures": {
-		"bottom": "cubist_texture:block/hopper_stone",
-		"top": "cubist_texture:block/hopper_stone",
-		"side": "cubist_texture:block/hopper_stone"
-	}
-}

@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/bordered_smithing_wood_slab"},
-		"type=double": {"model": "cubist_texture:block/bordered_smithing_wood"},
-		"type=top": {"model": "cubist_texture:block/bordered_smithing_wood_slab_top"}
-	}
-}

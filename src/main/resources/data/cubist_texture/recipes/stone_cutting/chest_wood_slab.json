@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:chest_wood"
-  },
-  "result": "cubist_texture:chest_wood_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

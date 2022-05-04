@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:smooth_bell_stone"
-  },
-  "result": "cubist_texture:smooth_bell_stone_wall",
-  "count": 1,
-  "type": "stonecutting"
-}

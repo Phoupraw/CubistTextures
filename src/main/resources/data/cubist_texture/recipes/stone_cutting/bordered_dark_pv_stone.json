@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:daylight_detector"
-  },
-  "result": "cubist_texture:bordered_dark_pv_stone",
-  "count": 9,
-  "type": "stonecutting"
-}

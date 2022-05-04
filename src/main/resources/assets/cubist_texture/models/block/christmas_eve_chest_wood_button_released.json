@@ -1,7 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "cubist_texture:block/christmas_eve_chest_wood"
-  },
-  "elements": []
-}

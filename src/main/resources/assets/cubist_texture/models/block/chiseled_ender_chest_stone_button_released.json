@@ -1,7 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "cubist_texture:block/chiseled_ender_chest_stone"
-  },
-  "elements": []
-}

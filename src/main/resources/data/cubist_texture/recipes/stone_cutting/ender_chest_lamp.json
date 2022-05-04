@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:ender_chest"
-  },
-  "result": "cubist_texture:ender_chest_lamp",
-  "count": 9,
-  "type": "stonecutting"
-}

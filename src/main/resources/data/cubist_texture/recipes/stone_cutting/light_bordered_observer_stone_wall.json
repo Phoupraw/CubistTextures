@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:light_bordered_observer_stone"
-  },
-  "result": "cubist_texture:light_bordered_observer_stone_wall",
-  "count": 1,
-  "type": "stonecutting"
-}

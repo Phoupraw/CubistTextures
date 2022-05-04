@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/vertical_slab",
-  "textures": {
-    "particle": "cubist_texture:block/dark_pv_stone"
-  },
-  "elements": []
-}

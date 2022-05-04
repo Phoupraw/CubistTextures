@@ -1,7 +1,0 @@
-{
-  "parent": "block/pressure_plate_down",
-  "textures": {
-    "texture": "cubist_texture:block/bordered_end_stone"
-  },
-  "elements": []
-}

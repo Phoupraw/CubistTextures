@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:bordered_end_stone"
-  },
-  "result": "cubist_texture:bordered_end_stone_vertical_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

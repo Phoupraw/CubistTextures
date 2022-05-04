@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/bordered_crying_obsidian_slab"},
-		"type=double": {"model": "cubist_texture:block/bordered_crying_obsidian"},
-		"type=top": {"model": "cubist_texture:block/bordered_crying_obsidian_slab_top"}
-	}
-}

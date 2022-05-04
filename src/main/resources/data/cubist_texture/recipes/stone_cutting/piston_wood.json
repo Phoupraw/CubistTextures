@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:piston"
-  },
-  "result": "cubist_texture:piston_wood",
-  "count": 9,
-  "type": "stonecutting"
-}

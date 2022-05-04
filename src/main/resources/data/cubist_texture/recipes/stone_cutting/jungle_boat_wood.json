@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:jungle_boat"
-  },
-  "result": "cubist_texture:jungle_boat_wood",
-  "count": 5,
-  "type": "stonecutting"
-}

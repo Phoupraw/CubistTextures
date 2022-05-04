@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab_top",
-	"textures": {
-		"bottom": "cubist_texture:block/ender_chest_stone",
-		"top": "cubist_texture:block/ender_chest_stone",
-		"side": "cubist_texture:block/ender_chest_stone"
-	}
-}

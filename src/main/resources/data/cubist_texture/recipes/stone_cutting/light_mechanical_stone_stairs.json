@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:light_mechanical_stone"
-  },
-  "result": "cubist_texture:light_mechanical_stone_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

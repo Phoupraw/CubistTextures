@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:structure_item_stone"
-  },
-  "result": "cubist_texture:structure_item_stone_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

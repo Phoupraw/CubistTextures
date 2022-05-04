@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/stairs",
-	"textures": {
-		"bottom": "cubist_texture:block/enchanting_table_wood",
-		"top": "cubist_texture:block/enchanting_table_wood",
-		"side": "cubist_texture:block/enchanting_table_wood"
-	}
-}

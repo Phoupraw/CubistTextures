@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab_top",
-	"textures": {
-		"bottom": "cubist_texture:block/cut_lodestone",
-		"top": "cubist_texture:block/cut_lodestone",
-		"side": "cubist_texture:block/cut_lodestone"
-	}
-}

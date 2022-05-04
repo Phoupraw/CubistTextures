@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:loom_wood"
-  },
-  "result": "cubist_texture:loom_wood_fence",
-  "count": 1,
-  "type": "stonecutting"
-}

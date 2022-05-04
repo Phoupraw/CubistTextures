@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/stairs",
-	"textures": {
-		"bottom": "cubist_texture:block/birch_trapdoor_wood",
-		"top": "cubist_texture:block/birch_trapdoor_wood",
-		"side": "cubist_texture:block/birch_trapdoor_wood"
-	}
-}

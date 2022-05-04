@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:bordered_loom_wood"
-  },
-  "result": "cubist_texture:bordered_loom_wood_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

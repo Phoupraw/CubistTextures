@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:crimson_door"
-  },
-  "result": "cubist_texture:crimson_door_wood",
-  "count": 2,
-  "type": "stonecutting"
-}

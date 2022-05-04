@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:chest"
-  },
-  "result": "cubist_texture:chiseled_christmas_chest_wood",
-  "count": 8,
-  "type": "stonecutting"
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:dark_pv_stone"
-  },
-  "result": "cubist_texture:dark_pv_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

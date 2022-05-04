@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cubist_texture:block/blue_command_rhombus_stone"
-  },
-  "elements": []
-}

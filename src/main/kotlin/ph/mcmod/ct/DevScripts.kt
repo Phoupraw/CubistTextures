@@ -10,13 +10,32 @@ import kotlin.io.path.*
 private object DevScripts {
 	@JvmStatic
 	fun main(args: Array<String>) {
-		Files.newDirectoryStream(Path.of("src\\main\\resources\\assets\\cubist_texture\\textures\\block")).forEach { generateTrapdoor0(it) }
-//
-//		generateTrapdoor1(Path.of("D:\\CCC\\Documents\\01_Programming\\Fabric Mod\\Cubist Textures\\src\\main\\resources\\assets\\cubist_texture\\test\\acacia_boat_wood.png"))
+//		println(Path(".").absolute())
+		deleteGeneratedResource()
 	}
 	
-	fun montage() {
-		val dir = Path.of("run\\screenshots")
+	fun deleteGeneratedResource() {
+		val runtimePackDir = Path("run/resourcepacks\\cubist_texture;runtime")
+		val staticPackDir = Path("src\\main\\resources")
+		deleteGeneratedResource1(runtimePackDir, staticPackDir)
+	}
+	
+	fun deleteGeneratedResource1(source: Path, target: Path) {
+		val fileNames = target.listDirectoryEntries().map { it.fileName }.toSet()
+		for (entry in source.listDirectoryEntries()) {
+			if (entry.fileName !in fileNames) continue
+			val counterpart = target.resolve(entry.fileName)
+			if (entry.isDirectory()) {
+				deleteGeneratedResource1(entry, counterpart)
+				continue
+			}
+			counterpart.deleteExisting()
+		}
+		if (target.isDirectory() && target.listDirectoryEntries().isEmpty()) target.deleteExisting()
+	}
+	
+	fun montageCreativeInventory() {
+		val dir = Path.of("screenshots")
 		val width = 486
 		val height0 = 270
 		val images = Files.newDirectoryStream(dir).map { ImageIO.read(it.inputStream()).getSubimage(690, 354, width, height0) }
@@ -27,13 +46,17 @@ private object DevScripts {
 	}
 	
 	val PATTERNS = listOf("oak", "jungle", "acacia", "crimson", "warped")
-	fun generateTrapdoor0(path: Path) {
+	fun generateTrapdoor() {
+		Files.newDirectoryStream(Path.of("../src\\main\\resources\\assets\\cubist_texture\\textures\\block")).forEach { generateTrapdoor1(it) }
+	}
+	
+	fun generateTrapdoor1(path: Path) {
 		if (path.extension != "png") return
 		val rawTexture = ImageIO.read(path.inputStream())
 		val width = rawTexture.width
 		val height = rawTexture.height
 		val framesCount = height / 16
-		val textureses = (0 until framesCount).map { rawTexture.getSubimage(0, it * 16, width, 16) }.map { generateTrapdoor1(it) }
+		val textureses = (0 until framesCount).map { rawTexture.getSubimage(0, it * 16, width, 16) }.map { generateTrapdoor2(it) }
 		val dir = path.parent.resolve(path.nameWithoutExtension + "_trapdoor").createDirectories()
 		for ((j, pattern) in PATTERNS.withIndex()) {
 			val texture = BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB)
@@ -47,7 +70,7 @@ private object DevScripts {
 		
 	}
 	
-	fun generateTrapdoor1(rawTexture: BufferedImage): List<BufferedImage> {
+	fun generateTrapdoor2(rawTexture: BufferedImage): List<BufferedImage> {
 		val width = rawTexture.width
 		val height = rawTexture.height
 		

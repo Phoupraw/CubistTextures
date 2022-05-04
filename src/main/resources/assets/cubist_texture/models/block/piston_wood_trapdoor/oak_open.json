@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "cubist_texture:block/piston_wood_trapdoor/oak"
-  },
-  "elements": []
-}

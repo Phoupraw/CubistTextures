@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab",
-	"textures": {
-		"bottom": "cubist_texture:block/chiseled_christmas_chest_wood",
-		"top": "cubist_texture:block/chiseled_christmas_chest_wood",
-		"side": "cubist_texture:block/chiseled_christmas_chest_wood"
-	}
-}

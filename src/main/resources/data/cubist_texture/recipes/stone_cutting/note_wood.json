@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:note_block"
-  },
-  "result": "cubist_texture:note_wood",
-  "count": 8,
-  "type": "stonecutting"
-}

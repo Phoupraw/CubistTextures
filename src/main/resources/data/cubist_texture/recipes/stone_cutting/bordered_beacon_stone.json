@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:beacon_stone"
-  },
-  "result": "cubist_texture:bordered_beacon_stone",
-  "count": 1,
-  "type": "stonecutting"
-}

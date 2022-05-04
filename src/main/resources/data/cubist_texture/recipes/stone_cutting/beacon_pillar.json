@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:beacon"
-  },
-  "result": "cubist_texture:beacon_pillar",
-  "count": 64,
-  "type": "stonecutting"
-}

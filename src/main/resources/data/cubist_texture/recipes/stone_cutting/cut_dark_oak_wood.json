@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:cartography_table"
-  },
-  "result": "cubist_texture:cut_dark_oak_wood",
-  "count": 4,
-  "type": "stonecutting"
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:lectern"
-  },
-  "result": "cubist_texture:chiseled_lectern_wood",
-  "count": 11,
-  "type": "stonecutting"
-}

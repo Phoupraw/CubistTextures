@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "cubist_texture:block/bordered_smithing_wood"
-  },
-  "elements": []
-}

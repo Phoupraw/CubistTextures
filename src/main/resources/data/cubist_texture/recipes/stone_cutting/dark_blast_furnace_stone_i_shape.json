@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:dark_blast_furnace_stone"
-  },
-  "result": "cubist_texture:dark_blast_furnace_stone_i_shape",
-  "count": 1,
-  "type": "stonecutting"
-}

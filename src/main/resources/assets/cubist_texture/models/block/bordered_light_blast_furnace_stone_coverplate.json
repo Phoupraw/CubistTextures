@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/coverplate",
-  "textures": {
-    "particle": "cubist_texture:block/bordered_light_blast_furnace_stone"
-  },
-  "elements": []
-}

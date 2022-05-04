@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:bell"
-  },
-  "result": "cubist_texture:smooth_bell_stone",
-  "count": 32,
-  "type": "stonecutting"
-}

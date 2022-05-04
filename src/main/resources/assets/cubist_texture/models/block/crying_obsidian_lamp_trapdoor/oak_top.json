@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "cubist_texture:block/crying_obsidian_lamp_trapdoor/oak"
-  },
-  "elements": []
-}

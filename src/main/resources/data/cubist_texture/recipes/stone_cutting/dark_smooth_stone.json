@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:stonecutter"
-  },
-  "result": "cubist_texture:dark_smooth_stone",
-  "count": 4,
-  "type": "stonecutting"
-}

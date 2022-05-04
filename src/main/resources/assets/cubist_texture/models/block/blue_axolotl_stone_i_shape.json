@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/i_shape",
-  "textures": {
-    "particle": "cubist_texture:block/blue_axolotl_stone"
-  },
-  "elements": []
-}

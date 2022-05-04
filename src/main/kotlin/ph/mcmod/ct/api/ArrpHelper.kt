@@ -6,9 +6,7 @@ import com.google.gson.JsonObject
 import net.devtech.arrp.api.RRPCallback
 import net.devtech.arrp.api.RuntimeResourcePack
 import net.devtech.arrp.impl.RuntimeResourcePackImpl
-import net.devtech.arrp.json.blockstate.JBlockModel
-import net.devtech.arrp.json.blockstate.JState
-import net.devtech.arrp.json.blockstate.JVariant
+import net.devtech.arrp.json.blockstate.*
 import net.devtech.arrp.json.lang.JLang
 import net.devtech.arrp.json.loot.*
 import net.devtech.arrp.json.models.JDisplay
@@ -18,7 +16,10 @@ import net.devtech.arrp.json.models.JTextures
 import net.devtech.arrp.json.recipe.*
 import net.devtech.arrp.json.tags.JTag
 import net.devtech.arrp.util.UnsafeByteArrayOutputStream
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents
+import net.fabricmc.loader.api.FabricLoader
 import net.minecraft.block.Block
+import net.minecraft.client.MinecraftClient
 import net.minecraft.enchantment.Enchantment
 import net.minecraft.entity.EntityType
 import net.minecraft.fluid.Fluid
@@ -39,7 +40,6 @@ import java.nio.charset.Charset
 import java.nio.file.Path
 import java.util.*
 import kotlin.concurrent.schedule
-import kotlin.concurrent.timer
 
 /**
  * 基于ARRP，提供了快速添加各种资源文件的方法。
@@ -72,9 +72,10 @@ class ArrpHelper(val pack: RuntimeResourcePack, val namespace: String = pack.id.
 				else pack.addLang(id, lang)
 			}
 			for ((id, jTag) in tags) pack.addTag(id, jTag)
-			if (DUMP) {
-				pack.dump(Path.of("src\\main\\resources\\assets"))
-				Timer().schedule(1000L) { throw RuntimeException("资源包已dump，令游戏崩溃。") }
+			runAtClient {
+				if (DUMP) {
+					pack.dump(MinecraftClient.getInstance().resourcePackDir.toPath())
+				}
 			}
 		}
 	}
@@ -1188,4 +1189,56 @@ fun RuntimeResourcePack.addBlockStateAndModels_generatedTrapdoor(trapdoorId: Ide
 		  trapdoorId.preBlock() + "/${pattern}_${template}")
 	}
 	addModel(JModel.model("${trapdoorId.preBlock()}/oak_bottom"), trapdoorId.preItem())
+}
+
+fun RuntimeResourcePack.addBlockStateAndModels_verticalTrapdoor(fullBlockId: Identifier) {
+	val trapdoorId = fullBlockId + "_trapdoor"
+	val verticalTrapdoorId = fullBlockId + "_" + VerticalTrapdoorBlock.PATH
+	val patterns = listOf("oak", "jungle", "acacia", "crimson", "warped")
+	val modelses = (0..3).map { i -> patterns.joinToString(",") { """{"model": "${trapdoorId.preBlock()}/${it}_open", "y": ${i * 90}}""" } }
+	addAsset(verticalTrapdoorId.preBlockStates().json(), """{
+	"multipart": [
+		{
+			"when": {
+				"OR": [
+					{"facing": "south", "open": false},
+					{"facing": "west", "open": true, "sequenced": false},
+					{"facing": "east", "open": true, "sequenced": true}
+				]
+			},
+			"apply": [${modelses[0]}]
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "west", "open": false},
+					{"facing": "north", "open": true, "sequenced": false},
+					{"facing": "south", "open": true, "sequenced": true}
+				]
+			},
+			"apply": [${modelses[1]}]
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "north", "open": false},
+					{"facing": "east", "open": true, "sequenced": false},
+					{"facing": "west", "open": true, "sequenced": true}
+				]
+			},
+			"apply": [${modelses[2]}]
+		},
+		{
+			"when": {
+				"OR": [
+					{"facing": "east", "open": false},
+					{"facing": "south", "open": true, "sequenced": false},
+					{"facing": "north", "open": true, "sequenced": true}
+				]
+			},
+			"apply": [${modelses[3]}]
+		}
+	]
+}""".toByteArray())
+	addModel(JModel.model("${trapdoorId.preBlock()}/oak_open"), verticalTrapdoorId.preItem())
 }

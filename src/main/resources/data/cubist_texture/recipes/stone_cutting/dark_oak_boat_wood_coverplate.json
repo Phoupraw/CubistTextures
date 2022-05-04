@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:dark_oak_boat_wood"
-  },
-  "result": "cubist_texture:dark_oak_boat_wood_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

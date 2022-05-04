@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/outer_stairs",
-	"textures": {
-		"bottom": "cubist_texture:block/oak_door_wood",
-		"top": "cubist_texture:block/oak_door_wood",
-		"side": "cubist_texture:block/oak_door_wood"
-	}
-}

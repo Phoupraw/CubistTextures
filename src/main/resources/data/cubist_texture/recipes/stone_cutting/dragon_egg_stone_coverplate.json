@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:dragon_egg_stone"
-  },
-  "result": "cubist_texture:dragon_egg_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

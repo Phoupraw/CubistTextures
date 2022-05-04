@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:spruce_trapdoor_wood"
-  },
-  "result": "cubist_texture:spruce_trapdoor_wood_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

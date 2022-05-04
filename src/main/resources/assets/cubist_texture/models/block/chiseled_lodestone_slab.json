@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/slab",
-	"textures": {
-		"bottom": "cubist_texture:block/chiseled_lodestone",
-		"top": "cubist_texture:block/chiseled_lodestone",
-		"side": "cubist_texture:block/chiseled_lodestone"
-	}
-}

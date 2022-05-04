@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/coverplate_face",
-  "textures": {
-    "particle": "cubist_texture:block/hopper_stone"
-  },
-  "elements": []
-}

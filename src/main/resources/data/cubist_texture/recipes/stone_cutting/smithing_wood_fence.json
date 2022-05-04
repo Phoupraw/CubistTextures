@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:smithing_wood"
-  },
-  "result": "cubist_texture:smithing_wood_fence",
-  "count": 1,
-  "type": "stonecutting"
-}

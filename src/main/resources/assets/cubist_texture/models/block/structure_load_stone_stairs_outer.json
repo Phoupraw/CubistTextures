@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/outer_stairs",
-	"textures": {
-		"bottom": "cubist_texture:block/structure_load_stone",
-		"top": "cubist_texture:block/structure_load_stone",
-		"side": "cubist_texture:block/structure_load_stone"
-	}
-}

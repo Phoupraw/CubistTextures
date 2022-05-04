@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:loom"
-  },
-  "result": "cubist_texture:loom_wood",
-  "count": 4,
-  "type": "stonecutting"
-}

@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:structure_load_stone"
-  },
-  "result": "cubist_texture:structure_load_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

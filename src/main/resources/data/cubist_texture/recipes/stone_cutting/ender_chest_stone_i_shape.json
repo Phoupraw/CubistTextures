@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:ender_chest_stone"
-  },
-  "result": "cubist_texture:ender_chest_stone_i_shape",
-  "count": 1,
-  "type": "stonecutting"
-}

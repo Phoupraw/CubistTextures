@@ -1,7 +1,0 @@
-{
-  "parent": "block/button",
-  "textures": {
-    "texture": "cubist_texture:block/blue_command_square_stone"
-  },
-  "elements": []
-}

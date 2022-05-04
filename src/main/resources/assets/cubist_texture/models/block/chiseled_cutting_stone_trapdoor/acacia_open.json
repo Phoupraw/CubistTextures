@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "cubist_texture:block/chiseled_cutting_stone_trapdoor/acacia"
-  },
-  "elements": []
-}

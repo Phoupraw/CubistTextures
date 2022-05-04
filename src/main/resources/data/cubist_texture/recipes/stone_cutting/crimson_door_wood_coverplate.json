@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:crimson_door_wood"
-  },
-  "result": "cubist_texture:crimson_door_wood_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

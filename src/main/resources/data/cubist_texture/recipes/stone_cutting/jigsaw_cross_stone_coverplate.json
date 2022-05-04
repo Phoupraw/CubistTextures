@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:jigsaw_cross_stone"
-  },
-  "result": "cubist_texture:jigsaw_cross_stone_coverplate",
-  "count": 16,
-  "type": "stonecutting"
-}

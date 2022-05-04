@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:beehive_wood"
-  },
-  "result": "cubist_texture:beehive_wood_vertical_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

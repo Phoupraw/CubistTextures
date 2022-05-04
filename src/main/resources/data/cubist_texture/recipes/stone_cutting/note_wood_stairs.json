@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:note_wood"
-  },
-  "result": "cubist_texture:note_wood_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

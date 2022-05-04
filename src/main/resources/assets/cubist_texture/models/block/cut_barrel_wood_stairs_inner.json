@@ -1,8 +1,0 @@
-{
-	"parent": "minecraft:block/inner_stairs",
-	"textures": {
-		"bottom": "cubist_texture:block/cut_barrel_wood",
-		"top": "cubist_texture:block/cut_barrel_wood",
-		"side": "cubist_texture:block/cut_barrel_wood"
-	}
-}

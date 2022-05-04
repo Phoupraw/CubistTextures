@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:oak_boat_wood"
-  },
-  "result": "cubist_texture:oak_boat_wood_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

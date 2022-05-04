@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:bordered_smithing_wood"
-  },
-  "result": "cubist_texture:bordered_smithing_wood_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

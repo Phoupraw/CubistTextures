@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:green_command_square_stone"
-  },
-  "result": "cubist_texture:green_command_square_stone_i_shape",
-  "count": 1,
-  "type": "stonecutting"
-}

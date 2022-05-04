@@ -1,7 +1,0 @@
-{
-  "parent": "cubist_texture:block/coverplate",
-  "textures": {
-    "particle": "cubist_texture:block/ender_chest_lamp"
-  },
-  "elements": []
-}

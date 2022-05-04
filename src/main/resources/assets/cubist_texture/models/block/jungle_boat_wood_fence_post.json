@@ -1,7 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "cubist_texture:block/jungle_boat_wood"
-  },
-  "elements": []
-}

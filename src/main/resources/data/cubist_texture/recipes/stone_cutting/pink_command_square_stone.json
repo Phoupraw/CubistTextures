@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:pink_command_arrow_stone"
-  },
-  "result": "cubist_texture:pink_command_square_stone",
-  "count": 1,
-  "type": "stonecutting"
-}

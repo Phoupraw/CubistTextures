@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:cut_smithing_wood"
-  },
-  "result": "cubist_texture:cut_smithing_wood_vertical_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

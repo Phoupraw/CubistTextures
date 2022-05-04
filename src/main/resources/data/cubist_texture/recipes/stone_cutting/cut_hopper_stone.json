@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:hopper"
-  },
-  "result": "cubist_texture:cut_hopper_stone",
-  "count": 13,
-  "type": "stonecutting"
-}

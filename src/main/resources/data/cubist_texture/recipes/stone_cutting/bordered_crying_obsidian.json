@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "minecraft:respawn_anchor"
-  },
-  "result": "cubist_texture:bordered_crying_obsidian",
-  "count": 9,
-  "type": "stonecutting"
-}

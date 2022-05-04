@@ -1,9 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:beacon_stone"
-  },
-  "result": "cubist_texture:smooth_beacon_stone",
-  "experience": 0.1,
-  "cookingtime": 200,
-  "type": "smelting"
-}

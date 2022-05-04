@@ -1,7 +1,0 @@
-{
-	"variants": {
-		"type=bottom": {"model": "cubist_texture:block/light_blast_furnace_stone_slab"},
-		"type=double": {"model": "cubist_texture:block/light_blast_furnace_stone"},
-		"type=top": {"model": "cubist_texture:block/light_blast_furnace_stone_slab_top"}
-	}
-}

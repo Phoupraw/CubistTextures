@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:green_command_rhombus_stone"
-  },
-  "result": "cubist_texture:green_command_rhombus_stone_vertical_slab",
-  "count": 2,
-  "type": "stonecutting"
-}

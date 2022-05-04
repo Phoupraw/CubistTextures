@@ -1,8 +1,0 @@
-{
-  "ingredient": {
-    "item": "cubist_texture:bell_stone"
-  },
-  "result": "cubist_texture:bell_stone_stairs",
-  "count": 1,
-  "type": "stonecutting"
-}

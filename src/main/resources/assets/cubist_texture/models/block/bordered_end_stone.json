@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cubist_texture:block/bordered_end_stone"
-  },
-  "elements": []
-}

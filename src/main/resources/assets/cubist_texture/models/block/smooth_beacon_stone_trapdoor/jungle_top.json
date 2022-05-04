@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_top",
-  "textures": {
-    "texture": "cubist_texture:block/smooth_beacon_stone_trapdoor/jungle"
-  },
-  "elements": []
-}

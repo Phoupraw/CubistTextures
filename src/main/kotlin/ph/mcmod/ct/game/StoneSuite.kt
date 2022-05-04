@@ -21,7 +21,8 @@ class StoneSuite(path: String, chinese: String, mapColor: MapColor, luminance: I
 	val iShape = IShapeBlock(FabricBlockSettings.copyOf(stairs)).registerItem("${path}_${IShapeBlock.PATH}")
 	val button = PublicWoodenButtonBlock(settingsOf(STONE_BUTTON)).registerItem("${path}_button")
 	val pressurePlate = PublicPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, settingsOf(STONE_PRESSURE_PLATE)).registerItem("${path}_pressure_plate")
-	val trapdoor = ManualTrapdoorBlock(FabricBlockSettings.of(Material.STONE, mapColor).luminance().requiresTool().strength(5.0f).sounds(BlockSoundGroup.STONE).nonOpaque().allowsSpawning { _, _, _, _ -> false }, false).registerItem("${path}_trapdoor")
+	val trapdoor = ManualTrapdoorBlock(FabricBlockSettings.of(Material.STONE, mapColor).luminance().requiresTool().strength(2.0f).sounds(BlockSoundGroup.STONE).nonOpaque().allowsSpawning { _, _, _, _ -> false }, false).registerItem("${path}_trapdoor")
+	val verticalTrapdoor = VerticalTrapdoorBlock(FabricBlockSettings.copyOf(trapdoor), false).registerItem("${path}_${VerticalTrapdoorBlock.PATH}")
 	
 	init {
 		MultiThreadsInit += {
@@ -32,6 +33,7 @@ class StoneSuite(path: String, chinese: String, mapColor: MapColor, luminance: I
 				ARRP_HELPER.pack.addLootTable_itself(pressurePlate)
 				ARRP_HELPER.pack.addLootTable_itself(iShape)
 				ARRP_HELPER.pack.addLootTable_itself(trapdoor)
+				ARRP_HELPER.pack.addLootTable_itself(verticalTrapdoor)
 				ARRP_HELPER.getTag(BlockTags.PICKAXE_MINEABLE).add(fullBlockId)
 				ARRP_HELPER.getTag(BlockTags.SLABS).add(slab.id)
 				ARRP_HELPER.getTag(ItemTags.SLABS).add(slab.id)
@@ -52,6 +54,7 @@ class StoneSuite(path: String, chinese: String, mapColor: MapColor, luminance: I
 				ARRP_HELPER.getTag(BlockTags.TRAPDOORS).add(trapdoor.id)
 				ARRP_HELPER.getTag(ItemTags.TRAPDOORS).add(trapdoor.id)
 				ARRP_HELPER.getTag(BlockTags.PICKAXE_MINEABLE).add(trapdoor.id)
+				ARRP_HELPER.getTag(BlockTags.PICKAXE_MINEABLE).add(verticalTrapdoor.id)
 				ARRP_HELPER.pack.addRecipe_craftingShaped(wall, 6)("###", "###")("#", fullBlock)()
 				ARRP_HELPER.pack.addRecipe_stoneCutting(fullBlock, wall, 1)
 				ARRP_HELPER.pack.addRecipe_craftingShaped(button)("#")("#", fullBlock)()
@@ -59,9 +62,10 @@ class StoneSuite(path: String, chinese: String, mapColor: MapColor, luminance: I
 				ARRP_HELPER.pack.addRecipe_craftingShaped(iShape, 7)("###", " # ", "###")("#", fullBlock)()
 				ARRP_HELPER.pack.addRecipe_stoneCutting(fullBlock, iShape, 1)
 				ARRP_HELPER.pack.addRecipe_craftingShaped(trapdoor, 2)("###")("#", pressurePlate)()
+				ARRP_HELPER.pack.addRecipe_craftingShaped(verticalTrapdoor, 2)("#", "#", "#")("#", pressurePlate)()
 			}
 			runAtClient {
-				BlockRenderLayerMap.INSTANCE.putBlock(trapdoor, RenderLayer.getCutout())
+				BlockRenderLayerMap.INSTANCE.putBlocks( RenderLayer.getCutout(),trapdoor,verticalTrapdoor)
 				if (ARRP) {
 					ARRP_HELPER.lang_zh_cn.blockRespect(wall, "${chinese}墙")
 					ARRP_HELPER.pack.addBlockStateAndModels_wall(wall.id, fullBlockId)
@@ -73,6 +77,8 @@ class StoneSuite(path: String, chinese: String, mapColor: MapColor, luminance: I
 					ARRP_HELPER.pack.addBlockStateAndModels_iShape(iShape.id, fullBlockId)
 					ARRP_HELPER.lang_zh_cn.blockRespect(trapdoor, "${chinese}活板门")
 					ARRP_HELPER.pack.addBlockStateAndModels_generatedTrapdoor(trapdoor.id)
+					ARRP_HELPER.lang_zh_cn.blockRespect(verticalTrapdoor, "${chinese}竖活板门")
+					ARRP_HELPER.pack.addBlockStateAndModels_verticalTrapdoor(fullBlockId)
 				}
 			}
 		}

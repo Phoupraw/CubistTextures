@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "cubist_texture:block/structure_corner_stone"
-  },
-  "elements": []
-}
